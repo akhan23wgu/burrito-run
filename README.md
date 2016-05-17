@@ -1,6 +1,6 @@
 # /burritoruns
 
-/burritoruns is a slash command to organize burrito runs through slack.
+/burritorunsis a slash command to organize burritoruns runs through slack.
 
 Each run is created on a channel level, meaning that different channels can have separate runs simultaneously (if you have a global team, for example).
 
@@ -13,8 +13,8 @@ To do so:
 1. Clone this repository
 2. Deploy it you your server of choice ([Heroku](http://heroku.com/) works well)
 3. Go to your slack team's integration list
-4. Add a slash command for `/burrito`
-5. Set it to point to your url with a '/burrito' at the end (e.g. `http://yourawesomedomain.com/coffee`)
+4. Add a slash command for `/burritoruns`
+5. Set it to point to your url with a '/burritoruns' at the end (e.g. `http://yourawesomedomain.com/burritoruns`)
 6. Set the method to `POST`
 7. Name it whatever you like and fill in all the descriptions if you wish
 8. Done! :tada:
@@ -25,7 +25,7 @@ There are 5 commands to know:
 
 #### `/burritoruns run [time]`
 
-Start a burrito run!  
+Start a burritoruns run!  
 example: `/burritoruns run 15`
 
 #### `/burritoruns list`
@@ -40,7 +40,7 @@ example: `/burritoruns order small cappuccino`
 
 #### `/burritoruns here`
 
-Let everyone know that the coffee is here!
+Let everyone know that the burritorunsruns is here!
 This is needed so that others can start new runs later on.  
 example: `/burritoruns here`
 

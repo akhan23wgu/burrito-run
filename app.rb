@@ -8,7 +8,7 @@ require './app/commands'
 post '/burritoruns' do
   content_type :json
 
-  if params['token'] == ENV['SLACK_VERIFICATION_TOKEN']
+  if params['puBqXcQda8xYA3kvQ80IMMn3'] == ENV['SLACK_VERIFICATION_TOKEN']
     team_id = params['team_id']
     channel_id = params['channel_id']
     user_id = params['user_id']
