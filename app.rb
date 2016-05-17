@@ -9,7 +9,7 @@ require 'pp'
 post '/burritoruns' do
   content_type :json
 
-   if params['token'] == ['p3VWoSGsExUYy8YgwRINZddZ']
+  if params['token'] == 'p3VWoSGsExUYy8YgwRINZddZ'
     team_id = params['team_id']
     channel_id = params['channel_id']
     user_id = params['user_id']
@@ -17,7 +17,7 @@ post '/burritoruns' do
     text = params['text']
     Commands.execute(team_id, channel_id, user_id, user_name, text).to_json
   else
-    {text: ENV['SLACK_VERIFICATION_TOKEN']}.to_json
+    {text: "Nope"}.to_json
   end
 end
 
