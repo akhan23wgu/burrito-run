@@ -1,6 +1,6 @@
-# /burrito
+# /burritoruns
 
-/burrito is a slash command to organize burrito runs through slack.
+/burritoruns is a slash command to organize burrito runs through slack.
 
 Each run is created on a channel level, meaning that different channels can have separate runs simultaneously (if you have a global team, for example).
 
@@ -23,31 +23,31 @@ To do so:
 
 There are 5 commands to know:
 
-#### `/burrito run [time]`
+#### `/burritoruns run [time]`
 
 Start a burrito run!  
-example: `/burrito run 15`
+example: `/burritoruns run 15`
 
-#### `/burrito list`
+#### `/burritoruns list`
 
 Show the list of orders for the current run.  
-example: `/burrito list`
+example: `/burritoruns list`
 
-#### `/burrito order [item]`
+#### `/burritoruns order [item]`
 
 Order something from the current run.  
-example: `/burrito order small cappuccino`
+example: `/burritoruns order small cappuccino`
 
-#### `/burrito here`
+#### `/burritoruns here`
 
 Let everyone know that the coffee is here!
 This is needed so that others can start new runs later on.  
-example: `/burrito here`
+example: `/burritoruns here`
 
-#### `/burrito help`
+#### `/burritoruns help`
 
 Show a help message detailing the available commands.  
-example: `/burrito help`
+example: `/burritoruns help`
 
 ## Contributing
 
