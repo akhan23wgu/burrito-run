@@ -16,7 +16,7 @@ post '/burritoruns' do
     text = params['text']
     Commands.execute(team_id, channel_id, user_id, user_name, text).to_json
   else
-    {text: "Nope"}.to_json
+    {text: "Your mom's a burrito. Try a different command."}.to_json
   end
 end
 
