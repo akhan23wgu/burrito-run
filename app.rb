@@ -26,5 +26,5 @@ get '/authed' do
   uri.query = URI.encode_www_form(uri_params)
   Net::HTTP.get_response(uri)
 
-  redirect 'http://coffee.agelber.com/authed/'
+  redirect 'https://burrito-run.heroku.com/authed/'
 end
