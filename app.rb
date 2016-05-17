@@ -19,7 +19,7 @@ post '/burritoruns' do
  else
 	{text: params['token']}.to_json
 	{text: ENV['SLACK_VERIFICATION_TOKEN']
-end
+ end
 end
 
 get '/authed' do
