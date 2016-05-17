@@ -16,10 +16,10 @@ post '/burritoruns' do
     user_name = params['user_name']
     text = params['text']
     Commands.execute(team_id, channel_id, user_id, user_name, text).to_json
-  else
-    {text: params['token']}.to_json
+ else
+	{text: params['token']}.to_json
 	{text: ENV['SLACK_VERIFICATION_TOKEN']
-  end
+end
 end
 
 get '/authed' do
