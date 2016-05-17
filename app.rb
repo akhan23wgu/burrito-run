@@ -9,7 +9,7 @@ require 'pp'
 post '/burritoruns' do
   content_type :json
 
-  if params['token'] == ENV['SLACK_VERIFICATION_TOKEN']
+  if params['token'] == 'p3VWoSGsExUYy8YgwRINZddZ']
     team_id = params['team_id']
     channel_id = params['channel_id']
     user_id = params['user_id']
