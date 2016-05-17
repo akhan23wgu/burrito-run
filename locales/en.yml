@@ -2,8 +2,8 @@ en:
   commands:
     start:
       already_on_run: "%{name} is already on a run! If that's not true, tell them to type `/burritoruns here` to signal that they came back."
-      success: "Hey! %{name} is going on a burritoruns run! :burritoruns:\nLet them know what you want with `/burritoruns order [item]`."
-      success_with_time: "Hey! %{name} is going on a burritoruns run in %{time} minutes! :burritoruns:\nLet them know what you want with `/burritoruns order [item]`."
+      success: "Hey! %{name} is going on a burritoruns run! Let them know what you want with `/burritoruns order [item]`."
+      success_with_time: "Hey! %{name} is going on a burrito run in %{time} minutes! Let them know what you want with `/burritoruns order [item]`."
     order:
       no_run: "No one is on a run now, are you in the right channel?\nAlternatively, use `/burritoruns run` to go yourself!"
       order_missing: "%{name} needs to know what you want! Try `/burritoruns order cappuccino` for example."
@@ -16,9 +16,9 @@ en:
     here:
       no_run: "Seems like you weren't on a run, are you in the right channel? :confused:"
       success: "Welcome back! Enjoy the rest of your day."
-      success_with_tags: "%{tags}: %{name} is here with burritoruns! Grab it while it's hot! :burritoruns:"
+      success_with_tags: "%{tags}: %{name} is here with burritos! Grab it while it's hot!"
     help: |
-      `/burritoruns` is a slash command to organize burritoruns runs.
+      `/burritoruns` is a slash command to organize burrito runs.
 
         Here are the available commands:
 
