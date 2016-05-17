@@ -1,6 +1,6 @@
-# /coffee
+# /burrito
 
-/coffee is a slash command to organize coffee runs through slack.
+/burrito is a slash command to organize coffee runs through slack.
 
 Each run is created on a channel level, meaning that different channels can have separate runs simultaneously (if you have a global team, for example).
 
@@ -23,34 +23,34 @@ To do so:
 
 There are 5 commands to know:
 
-#### `/coffee run [time]`
+#### `/burrito run [time]`
 
-Start a coffee run!  
-example: `/coffee run 15`
+Start a burrito run!  
+example: `/burrito run 15`
 
-#### `/coffee list`
+#### `/burrito list`
 
 Show the list of orders for the current run.  
-example: `/coffee list`
+example: `/burrito list`
 
-#### `/coffee order [item]`
+#### `/burrito order [item]`
 
 Order something from the current run.  
-example: `/coffee order small cappuccino`
+example: `/burrito order small cappuccino`
 
 #### `/coffee here`
 
 Let everyone know that the coffee is here!
 This is needed so that others can start new runs later on.  
-example: `/coffee here`
+example: `/burrito here`
 
-#### `/coffee help`
+#### `/burrito help`
 
 Show a help message detailing the available commands.  
-example: `/coffee help`
+example: `/burrito help`
 
 ## Contributing
 
 Feel free to fork this repository, add anything you like and open a pull request!
 
-:coffee::runner:
+:burrito::runner:
