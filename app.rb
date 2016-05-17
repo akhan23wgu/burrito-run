@@ -5,7 +5,7 @@ require './config/i18n'
 require './config/environments'
 require './app/commands'
 
-post '/burrito' do
+post '/burritoruns' do
   content_type :json
 
   if params['token'] == ENV['SLACK_VERIFICATION_TOKEN']
