@@ -38,7 +38,7 @@ example: `/burrito list`
 Order something from the current run.  
 example: `/burrito order small cappuccino`
 
-#### `/coffee here`
+#### `/burrito here`
 
 Let everyone know that the coffee is here!
 This is needed so that others can start new runs later on.  
@@ -52,5 +52,3 @@ example: `/burrito help`
 ## Contributing
 
 Feel free to fork this repository, add anything you like and open a pull request!
-
-:burrito::runner:
