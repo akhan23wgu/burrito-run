@@ -26,7 +26,11 @@ get '/authed' do
   uri.query = URI.encode_www_form(uri_params)
   Net::HTTP.get_response(uri)
 
+<<<<<<< HEAD
   redirect 'https://slack.com/oauth/authorize'
+=======
+  redirect 'https://burrito-run.heroku.com/authed/'
+>>>>>>> origin/master
 end
 
 KrcnBzN6
