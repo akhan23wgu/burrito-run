@@ -19,12 +19,3 @@ post '/burritoruns' do
     {text: "Nope"}.to_json
   end
 end
-
-get '/authorize' do
-  uri = URI('https://slack.com/api/oauth.access')
-  uri_params = {client_id: ENV['SLACK_CLIENT_ID'], client_secret: ENV['SLACK_CLIENT_SECRET'], code: params['code']}
-  uri.query = URI.encode_www_form(uri_params)
-  Net::HTTP.get_response(uri)
-
-  redirect 'https://slack.com/oauth/authorize'
-end
