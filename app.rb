@@ -8,7 +8,7 @@ require './app/commands'
 post '/burritoruns' do
   content_type :json
 
-  if params['token'] == ENV['SJSjWtZ22hrA04gv7IFLYJAuA']
+  if params['token'] == ENV['SLACK_VERIFICATION_TOKEN']
     team_id = params['team_id']
     channel_id = params['channel_id']
     user_id = params['user_id']
@@ -20,9 +20,11 @@ post '/burritoruns' do
   end
 end
 
-get '/authed' do
+get '/authorize' do
   uri = URI('https://slack.com/api/oauth.access')
   uri_params = {client_id: ENV['SLACK_CLIENT_ID'], client_secret: ENV['SLACK_CLIENT_SECRET'], code: params['code']}
   uri.query = URI.encode_www_form(uri_params)
   Net::HTTP.get_response(uri)
+
+  redirect 'https://slack.com/oauth/authorize'
 end
